@@ -33,7 +33,7 @@ githubのユーザーとメールの設定
 	 git config --global user.email mail.com  
 
 userはgithubのユーザー名,mail.comは登録したメールアドレス  
-おそらくホームディレクトリに.gitcongigが出来ていて中には  
+おそらくホームディレクトリに.gitconfigが出来ていて中には  
 
 	[user]
 		name = user
