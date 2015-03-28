@@ -19,9 +19,13 @@ FPGAおもしろそうだなと思いDE0-nanoが安かったので買ってみ�
 ・File > New > NewってウィンドウでNew Quartus Ⅱ Projectをクリック  
 ・New Project Wizard(下の図)でまずNext  
 ![create1](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/project_create01.PNG)
+
 ・[page 1 of 5]上から、プロジェクトを保存するフォルダ、プロジェクトの名前、最後はプロジェクト名を入力すると勝手に入力される  
+![create1](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/project_create02.PNG)
+
 
 ・[page 2 of 5]はNext  
+![create1](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/project_create03.PNG)
 ・[page 3 of 5]ここでは使用するfpgaの種類を選択。今回はDE0-nanoを使用しているので以下のようにしてます。  
 
 Family: Cyclone Ⅳ E  
@@ -29,6 +33,8 @@ Target device: Specific device～(略)
 Avalable devices:  
 Name:EP4CE2F17C6  
 んでFinish  
+
+![create1](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/project_create04.PNG)
 
 これでプロジェクトができた  
 
