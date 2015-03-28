@@ -18,14 +18,14 @@ FPGAおもしろそうだなと思いDE0-nanoが安かったので買ってみ�
 
 ・File > New > NewってウィンドウでNew Quartus Ⅱ Projectをクリック  
 ・New Project Wizard(下の図)でまずNext  
-![project_create01](/_images/project_create01.PNG)
+![project_create01](/images/project_create01.PNG)
 
 ・[page 1 of 5]上から、プロジェクトを保存するフォルダ、プロジェクトの名前、最後はプロジェクト名を入力すると勝手に入力される  
-![create2](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/project_create02.PNG)
+![create2](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/images/project_create02.PNG)
 
 
 ・[page 2 of 5]はNext  
-![create3](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/project_create03.PNG)
+![create3](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/images/project_create03.PNG)
 
 
 ・[page 3 of 5]ここでは使用するfpgaの種類を選択。今回はDE0-nanoを使用しているので以下のようにしてます。  
@@ -36,7 +36,7 @@ Avalable devices:
 Name:EP4CE2F17C6  
 んでFinish  
 
-![create4](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/project_create04.PNG)
+![create4](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/images/project_create04.PNG)
 
 
 これでプロジェクトができた  
@@ -116,7 +116,7 @@ KEY1=[PIN_E1]
 
 保存したらツールバーのAssignments > Pin Plannerを起動.  
 locationのところをダブルクリックでピンの選択．今回は0番と1番.  
-![create5](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/pin_planner.PNG)
+![create5](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/images/pin_planner.PNG)
 
 
 そしたらQuartusの方に戻ってツールバーのProcessing > Start Compilation もしくはStart > Start Analysis & Elaboration(どっちが何だったが忘れたが今回はソースのみなので前者でできるはず)   
@@ -125,10 +125,10 @@ locationのところをダブルクリックでピンの選択．今回は0番�
 最後に書き込み  
 ツールバーのTools > Programmer  
 Hardware Setupを選択してUSB-Blasterに設定．後はfileがちゃんと作ったのが選ばれてるのかを見てStart．  
-![create6](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/Programmer.PNG)
+![create6](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/images/Programmer.PNG)
 
 Successfulと出れば成功．写真のようになってるはず．  
-![create7](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/de0-nano-Lchika.jpg)
+![create7](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/images/de0-nano-Lchika.jpg)
 
 
 ちなみに電源落としたら消えますよ  
