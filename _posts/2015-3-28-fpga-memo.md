@@ -26,6 +26,8 @@ FPGAおもしろそうだなと思いDE0-nanoが安かったので買ってみ�
 
 ・[page 2 of 5]はNext  
 ![create1](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/project_create03.PNG)
+
+
 ・[page 3 of 5]ここでは使用するfpgaの種類を選択。今回はDE0-nanoを使用しているので以下のようにしてます。  
 
 Family: Cyclone Ⅳ E  
@@ -35,6 +37,7 @@ Name:EP4CE2F17C6
 んでFinish  
 
 ![create1](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/project_create04.PNG)
+
 
 これでプロジェクトができた  
 
