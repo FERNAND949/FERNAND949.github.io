@@ -18,7 +18,7 @@ FPGAおもしろそうだなと思いDE0-nanoが安かったので買ってみ�
 
 ・File > New > NewってウィンドウでNew Quartus Ⅱ Projectをクリック  
 ・New Project Wizard(下の図)でまずNext  
-
+![create1](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/project_create01.PNG)
 ・[page 1 of 5]上から、プロジェクトを保存するフォルダ、プロジェクトの名前、最後はプロジェクト名を入力すると勝手に入力される  
 
 ・[page 2 of 5]はNext  
