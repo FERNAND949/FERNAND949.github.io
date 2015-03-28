@@ -116,6 +116,8 @@ KEY1=[PIN_E1]
 
 保存したらツールバーのAssignments > Pin Plannerを起動.  
 locationのところをダブルクリックでピンの選択．今回は0番と1番.  
+![create1](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/pin_planner.PNG)
+
 
 そしたらQuartusの方に戻ってツールバーのProcessing > Start Compilation もしくはStart > Start Analysis & Elaboration(どっちが何だったが忘れたが今回はソースのみなので前者でできるはず)   
 警告は沢山出るけどエラーが無ければ良しとしよう!  
@@ -123,7 +125,11 @@ locationのところをダブルクリックでピンの選択．今回は0番�
 最後に書き込み  
 ツールバーのTools > Programmer  
 Hardware Setupを選択してUSB-Blasterに設定．後はfileがちゃんと作ったのが選ばれてるのかを見てStart．  
+![create1](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/Programmer.PNG)
+
 Successfulと出れば成功．写真のようになってるはず．  
+![create1](https://github.com/FERNAND949/FERNAND949.github.io/blob/master/_images/de0-nano-Lchika.PNG)
+
 
 ちなみに電源落としたら消えますよ  
 
