@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 第1回de0-nanoというfpgaを買ってみたので遊んでみる
+title: fpgaメモ1個目　de0-nanoというfpgaを買ってみたのでおだやかに戯れる
 ---
 
 FPGAおもしろそうだなと思いDE0-nanoが安かったので買ってみました．最近少しずつやっているのでそのメモ．  
