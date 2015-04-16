@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FPGAメモ1個目　de0-nanoというFPGAを買ってみたのでおだやかに戯れる
+title: FPGAメモ1個目-de0-nanoというFPGAを買ってみたのでおだやかに戯れる
 ---
 
 FPGAおもしろそうだなと思いDE0-nanoが安かったので買ってみました．最近少しずつやっているのでそのメモ．  
