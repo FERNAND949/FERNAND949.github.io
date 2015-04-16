@@ -5,7 +5,9 @@ title: ROSというダークマター３個目-turtlebotにプラグインを作
 
 ROSで既存のシステムのある部分を自分で編集したい、または自作したものと置き換えたいって思ったんですよ．いや，やらねばならなくなったのだ．  
 そんな時にどうすればいいのか？プラグインを作って置き換えるらしいとのこと・・・  
+
 どうやって作ればいいのやら，チュートリアルはあるけどやった後にいざオリジナルのものを作ってやるとなると，う〜ん・・・  
+
 ROSの**初心者**である私が結果的にプラグインとして置き換えることができたので，その時の手順を載せておきます．  
 **どうせ忘れるからね!!**  
 
@@ -13,7 +15,7 @@ ROSの**初心者**である私が結果的にプラグインとして置き換�
 今回プラグインとして置き換えたのはbase_local_plannerのdwa_local_plannerの部分を置き換えた．  
 
 とりあえず参考URLとして以下のものを参考にした(一割くらい)  
-<http://wiki.ros.org/navigation/Tutorials/Writing%20A%20Global%20Path%20Planner%20As%20Plugin%20in%20ROS>
+<http://wiki.ros.org/navigation/Tutorials/Writing%20A%20Global%20Path%20Planner%20As%20Plugin%20in%20ROS>  
 <http://wiki.ros.org/pluginlib>
 特に１個目の参考URLはGlobal_Plannerを自分で作ったのと置き換えようって感じでやっている．
 
