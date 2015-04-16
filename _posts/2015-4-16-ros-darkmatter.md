@@ -16,7 +16,7 @@ ROSの**初心者**である私が結果的にプラグインとして置き換�
 
 とりあえず参考URLとして以下のものを参考にした(一割くらい)  
 <http://wiki.ros.org/navigation/Tutorials/Writing%20A%20Global%20Path%20Planner%20As%20Plugin%20in%20ROS>  
-<http://wiki.ros.org/pluginlib>
+<http://wiki.ros.org/pluginlib>  
 特に１個目の参考URLはGlobal_Plannerを自分で作ったのと置き換えようって感じでやっている．
 
 まずはプラグイン用のパッケージを作りましょう、ということで何かパッケージを作ります．特に専用のコマンドとかはなく普通に作ります．  
