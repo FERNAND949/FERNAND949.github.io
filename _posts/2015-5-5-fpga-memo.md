@@ -59,15 +59,15 @@ PINは適当なGPIOに割り振っています．
 
 実際のオシロの波形はこんなかんじです．  
 
-![pinplanner](/images/duty50.jpeg)
+![pinplanner](/images/duty50.jpg)
 
 また26'd00500000を26'd00700000に変えるとデューティ比70%となります．  
 
-![pinplanner](/images/duty70.jpeg)
+![pinplanner](/images/duty70.jpg)
 
 最後にpinplanner  
 
-![pinplanner](/images/pwetest.PNG)
+![pinplanner](/images/pwmtest.PNG)
 
 
 ん〜、もっとスマートに書けるかな？  
