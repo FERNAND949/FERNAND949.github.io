@@ -34,13 +34,13 @@ title: FPGAメモ3個目-de0-nanoというFPGAを買ってみたのでおだや�
 		counter_time <= 26'd0;
 		end
 		
-		// デューティ比の後半
+		// デューティ比
 		else if(counter_time > 26'd00500000)begin
 		PIN <= 0;
 		counter_time <= counter_time + 26'd1;
 		end
 		
-		// デューティ比の前半
+		// デューティ比
 		else if(counter_time <= 26'd00500000)begin
 		counter_time <= counter_time + 26'd1;
 		PIN <= 1;
@@ -61,15 +61,17 @@ PINは適当なGPIOに割り振っています．
 
 ![pinplanner](/images/duty50.jpg)
 
+  
 また26'd00500000を26'd00700000に変えるとデューティ比70%となります．  
 
 ![pinplanner](/images/duty70.jpg)
 
+  
 最後にpinplanner  
 
 ![pinplanner](/images/pwmtest.PNG)
 
-
+  
 ん〜、もっとスマートに書けるかな？  
 
 
